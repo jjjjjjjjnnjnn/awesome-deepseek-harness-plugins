@@ -357,7 +357,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Web 输入框的终端风格输入历史：以边缘优先的方向键回溯，可精确恢复草稿/光标位置，浏览器本地持久化历史，Ctrl+R 反向搜索，以及滑动上下文感知；0.5.0 新增智能输入层——跨会话片段（/save、/load）、带变量的提示词模板、复用洞察和压缩摘要高亮。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - DeepSeek Harness 的数据质量检查——剖析、清洗和校验流水线，并生成结构化报告。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - 在 agent/pre-step、tools/pre-execute 和 tools/post-execute 接缝上检测提示注入、越狱和密钥泄露模式，具备 allow/ask/block 分级、脱敏的 defend/detection 审计事件、defend_report 工具，以及破坏性删除命令防护。声明兼容 DSH 0.1.6-alpha.2。
-- [dsh-delivery-board](https://github.com/jerryxff26-alt/dsh-delivery-board) - 仓库内交付看板：阶段流水线、交接审计、软 WIP、周报 Markdown、本地 kanban 与日历 Timeline；可作为 DSH 插件（`dsh.bundle`）安装，也可通过 `npx github:jerryxff26-alt/dsh-delivery-board` 独立运行。
+- [dsh-delivery-board](https://github.com/jerryxff26-alt/dsh-delivery-board) - 仓库内交付看板：阶段流水线、交接审计、软 WIP 限制、Markdown 周报与看板/日历时间线；通过 `dsh.bundle` 安装，声明兼容 DSH `>=0.2.0-rc.2 <0.3.0`。可编辑的本机回环看板使用私密能力链接，请勿分享该链接；可选独立 CLI 使用 Node 文件访问，不受 DSH 文件系统策略约束。
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律守卫：首次编辑前进行需求质询、红/绿测试证据门禁、派生对手审查，以及带按维度验证工作流的交付报告。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-draw](https://github.com/PerryLink/dsh-draw) - 多引擎文生图（OpenAI Images 和智谱 CogView 预设），支持按会话配额跟踪、引擎故障转移、凭据安全配置，以及带重新生成的结果卡片。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-fast](https://github.com/PerryLink/dsh-fast) - DeepSeek Harness 的性能剖析与 LLM 缓存诊断——上下文工程、延迟剖析和缓存行为报告。声明兼容 DSH 0.1.6-alpha.2。
