@@ -493,6 +493,7 @@ flowchart LR
 - [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) - Isolated install-smoke-uninstall test drives for DSH plugins in a throwaway DSH_HOME, emitting structured dsh-test-drive/v1 pass/fail matrices; installs via the `dsh.bundle` manifest (npm `dsh-test-drive`), maintained on the dsh-v0.1.5-rc.2 host line.
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) - Read-only local audit of configuration, plugin provenance, sessions, and network exposure.
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) - Read-only environment discovery: software, resources, ports, services, hardware, and workspace.
+- [dsh-super-pm](https://github.com/Lohaslee/dsh-super-pm) - Product-thinking companion for DeepSeek Harness: clarifies negative boundaries first, separates facts from assumptions, routes through seven product lenses, and persists confirmed decisions to project memory.
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - Routes eligible bash commands through rtk (Rust Token Killer) inside the DSH bash executor to compress tool output and save tokens; safe passthrough when rtk is absent.
 - [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) - Better decoding for UTF-16LE, UTF-8, GBK, and other Bash output encodings.
 - [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) - Manual/ask-mode approval for DSH tools.
