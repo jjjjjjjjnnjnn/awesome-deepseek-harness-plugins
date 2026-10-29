@@ -412,6 +412,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) - 按招标要求逐条检查投标文件的响应位置，报告哪些要求看起来有应答、哪些匹配较弱、哪些未能定位；只报告差异，不判断是否实质满足。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Locates bid responses requirement by requirement without judging substantive compliance.
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。文档说明默认 `auto` 写入可在宿主文件服务拒绝后回退为 Node 直接写入；若要求宿主文件沙箱约束，应选择 `fs` 通道。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Session attachment inbox; auto writes may fall back to Node after host fs refusal. Use the fs channel to require host fs sandbox enforcement.
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Community Bench tab backed by the public task-conditioned registry; no local scoring.
+- [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - 为 DSH Web 增加实时双向思维导图，基于 Mind Elixir：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图，并支持 PNG 导出和在桌面应用中打开。通过 dsh.bundle 清单安装。 / Adds a live, bidirectional mind map to DSH Web built on Mind Elixir, with docked and fullscreen views, PNG export and open-in-desktop; installs via a dsh.bundle manifest.
 
 ## 贡献
 
